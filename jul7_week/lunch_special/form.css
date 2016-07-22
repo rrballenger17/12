@@ -1,0 +1,40 @@
+/* CSS Rules for the Dado Tea Lunch Special Form */
+
+legend{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.5em;
+	color: #E08910;
+	font-variant: small-caps;
+	text-align: center;
+	letter-spacing: .09em;
+}
+
+div{
+	font-weight: bold;
+}
+
+label{
+	font-style: italic;
+}
+
+fieldset{
+	padding: 1em;
+	margin: 1em;
+	border: .1em solid green;
+}
+
+h1{
+	color: #E08910;
+	text-align: center;
+	text-decoration: underline;
+}
+
+body{
+	background-color: #E1FCE3;
+	border-bottom: .3em groove;
+	border-top: .3em groove;
+	margin: 1em;
+	font-family: verdana;
+}
+
+

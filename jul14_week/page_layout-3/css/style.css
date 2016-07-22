@@ -1,0 +1,213 @@
+html{
+	background-color: white;
+}
+
+body{
+	margin-top: 0px;
+	margin-left: 2%;
+	margin-right: 2%;
+
+	min-width: 580px;
+
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	background-color: #F5F5F0;
+}
+
+h1{
+	text-indent: 100%;
+  	overflow: hidden;
+  	white-space: nowrap;
+  	background-image: url("../images/masthead.png");
+  	background-repeat: no-repeat;
+  	background-color: black;
+	height: 50px;
+	
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+nav{
+	font-family: Tahoma, sans-serif;
+}
+
+#siteNav{
+	background-color: #D6D6C2;
+	border-bottom: #000080 solid 10px;
+
+	list-style: none;
+	white-space: nowrap;
+	overflow: hidden;
+
+	padding-left: 5%;
+	padding-bottom: 16px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	margin-top: 0px;
+}
+
+#siteNav li{
+	display: inline;	
+}
+
+#siteNav li a{
+	text-decoration: none;
+	padding: .3em .6em;
+	margin: 0px;
+	color: black;
+}
+
+#siteNav li a:active{
+	color: blue !important;
+	border-bottom: 2px solid red;	
+}
+#siteNav li a:visited{}
+
+#siteNav li a:hover, #siteNav .youarehere a{
+	color: red;
+	border-bottom: 3px solid red;	
+}
+
+#categoryNav{
+	clear: left;
+	float: left;
+
+	width: 19.5%;
+	list-style: none;
+	color: red;
+	font-size: .8em;
+	
+	padding-left: .5%;
+	margin-top:10px;
+	margin-left: 0px;
+}
+
+#categoryNav ul{
+	list-style: none;
+	padding-left: 14px;
+	margin-left: 0px;
+}
+
+#categoryNav li{
+	margin-top: 5px;
+}
+
+#categoryNav a{
+	display: block;
+
+	text-decoration: none;
+	color: black;
+
+	padding-right: 12%;
+	margin-right: 8%;
+	margin-top:-6px;
+	padding-top: 6px;
+	margin-bottom:-6px;
+	padding-bottom: 6px;
+}
+
+#categoryNav ul a{
+	margin-left: -14px;
+	padding-left: 14px;
+}
+
+#categoryNav ul ul a{
+	margin-left: -28px;
+	padding-left: 28px;
+}
+
+#categoryNav a:active{
+	color: blue;
+}
+
+#categoryNav a:hover{
+	background-color: gray;
+}
+
+#categoryNav a:visited{}
+
+#categoryNav .youarehere{
+	font-weight: 600;
+	color: red;
+}
+
+#breadcrumbNav{
+	float: left;
+	width: 80%;
+	
+	list-style: none;
+	color: gray;
+
+	padding: 0px;
+	margin-top:10px;
+}
+
+#breadcrumbNav ul{
+	display: inline;
+	list-style: none;
+	padding-left: 2px;
+}
+
+#breadcrumbNav ul li{
+	display: inline;
+	list-style: none;
+
+	background-image: url(../images/arrow.gif);
+  	background-position: left;
+  	background-repeat: no-repeat;
+  	padding-left: 25px;
+}
+
+#breadcrumbNav a {
+  	color: inherit;
+  	text-decoration: none;
+}
+
+#breadcrumbNav a:hover {
+  	color: black;
+}
+
+#breadcrumbNav a:active {
+  	color: blue;
+}
+#breadcrumbNav a:visited{}
+
+main{
+	float: left;
+	font-size: 1em;
+	width: 80%;
+}
+
+main h2{
+	margin-top: 8px;
+}
+
+main h3{
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+main h4{
+	display: inline;
+	font-size: 1.05em;
+}
+
+main p{
+	font-size: .9em;
+}
+
+.enrolled{
+	margin-top:0px;
+}
+
+footer{
+	clear:both;
+	font-size: .6em;
+	font-family: verdana;
+}
+
+footer p{
+	margin-left: 10px;
+}
+

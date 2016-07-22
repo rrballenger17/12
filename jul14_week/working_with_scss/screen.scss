@@ -1,0 +1,76 @@
+// This is here to get you started
+
+// color #135b00
+// background #6FC559
+// hover background #50C531
+// hover color #135b00
+// current background
+// current color #6FC559
+
+$primary-color: #135b00;
+$second-color: #6fc559;
+$third-color: #50dd31;
+
+nav{
+    width: 100%;
+}
+
+#sitenav {
+    color: $primary-color;
+    background-color: $primary-color;
+    
+    font-weight: bold;
+    font-size: 135%;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 12%;
+            background-color: $second-color;
+            a {
+                color: $primary-color;
+                background-color: $second-color;
+                display: block;
+                text-align: center;
+                
+                // pasted 3 below
+                text-decoration: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+                &:hover {
+                    background-color: $third-color;
+                    color: $primary-color;
+                    text-decoration: underline;
+                }
+                
+                
+                &:active {
+                    color: $primary-color; 
+                    background-color: $second-color;
+                }
+                // nest selector for a:hover/active/visited here
+                // use the &:hover syntax -- the "&" will refer to the "a"
+            }
+        }
+        
+        #current{
+            a{
+                &:link, 
+                &:visited, 
+                &:hover, 
+                &:active{
+                    background-color: $primary-color;
+                    color: $second-color;
+                    text-decoration: none;
+                }
+            }
+        }
+        // nest select for #current here
+        
+    }
+}

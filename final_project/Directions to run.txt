@@ -1,0 +1,18 @@
+Directions to run: 
+
+Use terminal and cd to final project directory.
+
+
+Ryans-MacBook-Pro-2:final Ryan$ php --version
+
+PHP 5.5.30 (cli) (built: Oct 23 2015 17:21:45) 
+Copyright (c) 1997-2015 The PHP Group
+Zend Engine v2.5.0, Copyright (c) 1998-2015 Zend Technologies
+
+
+Ryans-MacBook-Pro-2:final Ryan$ php -S localhost:8000
+
+PHP 5.5.30 Development Server started at Fri Jul 22 18:50:48 2016
+Listening on http://localhost:8000
+Document root is /Users/Ryan/Desktop/final_project/final
+Press Ctrl-C to quit.

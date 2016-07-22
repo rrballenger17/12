@@ -1,0 +1,78 @@
+/* This is the target CSS file.  It needn't be exactly the same as what you produce in screen.css (via screen.scss),
+but it contains all the style rules you should implement
+*/
+
+nav {
+    /* check */
+    width: 100%;
+}
+
+#sitenav {
+    /* check */
+    color: #135b00;
+    /* check */
+    font-weight: bold;
+    /* check */
+    font-size: 135%;
+    /* check */
+    background-color: #135b00;
+}
+
+#sitenav ul {
+    /* check */
+    list-style: none;
+    /* check */
+    margin: 0;
+    /* check */
+    padding: 0;
+}
+
+#sitenav ul li {
+    /* check */
+    float: left;
+    /* check */
+    margin: 0;
+    /* check */
+    padding: 0;
+    /* check */
+    width: 12%;
+    /* check */
+    background-color: #6fc559;
+}
+
+#sitenav ul li a {
+    /* check */
+    color: #135b00;
+    /* check */
+    background-color: #6fc559;
+    /* check */
+    display: block;
+    /* check */
+    text-align: center;
+    /* check */
+    text-decoration: none;
+    /* check */
+    padding-top: 10px;
+    /* check */
+    padding-bottom: 10px;
+}
+
+#sitenav ul li a:hover {
+    background-color: #50dd31;
+    color: #135b00;
+    text-decoration: underline;
+}
+
+#sitenav ul li a:active {
+    color: #135b00;
+    background-color: #6fc559;
+}
+
+#sitenav ul #current a:link,
+#sitenav ul #current a:visited,
+#sitenav ul #current a:hover,
+#sitenav ul #current a:active {
+    background-color: #135b00;
+    color: #6fc559;
+    text-decoration: none;
+}

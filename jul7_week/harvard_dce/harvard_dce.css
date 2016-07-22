@@ -1,0 +1,26 @@
+/* CSS Rules for harvard_dce.html */
+
+body{
+	background-color: #8B1414;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-left: 15px;
+}
+
+section{
+	border-top: medium solid black;
+	padding: .5em;
+	width: 80%;
+}
+
+footer{
+	font-size: smaller;
+	font-style: oblique;
+	text-align: center;
+}
+
+h2 {
+	color: gray;
+	font-variant: small-caps;
+	font-weight: 100;
+}
+
